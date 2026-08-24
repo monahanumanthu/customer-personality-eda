@@ -1,13 +1,15 @@
 # customer-personality-eda
 Exploratory Data Analysis of customer demographics, purchasing behavior, spending patterns, and campaign responses using Python.
-### Customer Personality Analysis – Exploratory Data Analysis
-# Overview
+
+
+# Customer Personality Analysis – Exploratory Data Analysis
+### Overview
 
 This project performs Exploratory Data Analysis (EDA) on the Customer Personality Analysis dataset to understand customer demographics, purchasing behavior, spending patterns, and campaign responses.
 
 The project was completed as part of my Machine Learning internship at Unlox Academy.
 
-Objectives
+### Objectives
 
 The main objectives of this project are to:
 
