@@ -13,85 +13,88 @@ The project was completed as part of my Machine Learning internship at Unlox Aca
 
 The main objectives of this project are to:
 
-Understand the structure and characteristics of the dataset
-Clean and validate the data
-Identify and handle missing values and duplicate records
-Detect and handle numerical outliers
-Analyze relationships between numerical and categorical variables
-Engineer meaningful features
-Prepare categorical variables for predictive modeling
-Dataset
+- Understand the structure and characteristics of the dataset
+- Clean and validate the data
+- Identify and handle missing values and duplicate records
+- Detect and handle numerical outliers
+- Analyze relationships between numerical and categorical variables
+- Engineer meaningful features
+- Prepare categorical variables for predictive modeling
 
-Source: Kaggle – Customer Personality Analysis
+### Dataset
+
+#### Source: Kaggle – Customer Personality Analysis
 
 The dataset contains customer demographic information, purchasing behavior, campaign responses, and product spending information.
 
 The raw dataset is not included in this repository. Please obtain it from the original source and place it in the project directory before running the notebook.
 
-Business Questions
-Does customer income affect spending behavior?
-Which product category generates the highest revenue?
-Do customers with children spend differently?
-Which purchasing channel is most preferred?
-What characteristics are common among customers who accepted marketing campaigns?
-Project Workflow
-Phase 1 – Dataset Selection & Problem Definition
-Dataset source identification
-Dataset overview
-Data dictionary
-Business question formulation
-Phase 2 – Data Cleaning
-Data type inspection
-Missing-value analysis
-Median imputation for missing Income values
-Duplicate detection and removal
-Date conversion
-Phase 3 – Outlier Analysis
-Numerical feature identification
-Skewness analysis
-Box plot visualization
-IQR-based outlier detection
-Outlier capping using the Winsorization approach
-Phase 4 – Bivariate & Multivariate Analysis
-Correlation heatmap
-Income vs Education analysis
-Income vs Marital Status analysis
-Product spending analysis
-Campaign response analysis
-Correlation vs causation discussion
-Phase 5 – Feature Engineering & Encoding
+### Business Questions
+1. Does customer income affect spending behavior?
+2. Which product category generates the highest revenue?
+3. Do customers with children spend differently?
+4. Which purchasing channel is most preferred?
+5. What characteristics are common among customers who accepted marketing campaigns?
+### Project Workflow
+#### Phase 1 – Dataset Selection & Problem Definition
+- Dataset source identification
+- Dataset overview
+- Data dictionary
+- Business question formulation
+#### Phase 2 – Data Cleaning and Integrity Checks
+- Data type inspection
+- Missing-value analysis
+- Median imputation for missing Income values
+- Duplicate detection and removal
+- Date conversion
+#### Phase 3 – Outlier Analysis
+- Numerical feature identification
+- Skewness analysis
+- Box plot visualization
+- IQR-based outlier detection
+- Outlier capping using the Winsorization approach
+#### Phase 4 – Bivariate & Multivariate Analysis
+- Correlation heatmap
+- Income vs Education analysis
+- Income vs Marital Status analysis
+- Product spending analysis
+- Total Purchases vs Channel
+- Campaign response analysis
+- Correlation vs causation discussion
+#### Phase 5 – Feature Engineering & Encoding
 
 Created new features including:
 
-Age
-Total_Children
-Total_Spending
+- Age
+- Total_Children
+- Total_Spending
 
 Categorical encoding:
 
-Label Encoding for the ordinal Education variable
-One-Hot Encoding for the nominal Marital_Status variable
-Key Findings
-Customer income shows positive relationships with several spending-related variables.
-Wine and meat products account for substantial customer spending.
-Customers with fewer children tend to show higher spending patterns.
-Purchasing behavior differs across customer groups.
-Higher income and spending are associated with greater campaign acceptance.
-Correlation between variables does not necessarily imply direct causation.
-Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Jupyter Notebook
-Project Files
-File	Description
-customer_personality_eda.ipynb	Complete EDA notebook
-EDA_Report.pdf	Technical project report
-requirements.txt	Python dependencies
-.gitignore	Files excluded from version control
+- Label Encoding for the ordinal Education variable
+- One-Hot Encoding for the nominal Marital_Status variable
+### Key Findings
+- Customer income shows positive relationships with several spending-related variables.
+- Wine and meat products account for substantial customer spending.
+- Customers with fewer children tend to show higher spending patterns.
+- Purchasing behavior differs across customer groups.
+- Higher income and spending are associated with greater campaign acceptance.
+- Total_Spending is a useful engineered feature for future predictive modeling.
+- Correlation between variables does not necessarily imply direct causation.
+### Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+### Project Files
+| File |	Description |
+| customer_personality_eda.ipynb 	|Complete EDA notebook |
+|EDA_Report.pdf|	|Technical project report|
+|requirements.txt|	|Python dependencies|
+|.gitignore|	|Files excluded from version control|
 How to Run
 Download the dataset from the original Kaggle source.
 Place marketing_campaign.csv in the project directory.
