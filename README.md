@@ -91,10 +91,11 @@ Categorical encoding:
 - Jupyter Notebook
 ### Project Files
 | File |	Description |
-| customer_personality_eda.ipynb 	|Complete EDA notebook |
-|EDA_Report.pdf|	|Technical project report|
-|requirements.txt|	|Python dependencies|
-|.gitignore|	|Files excluded from version control|
+| :--- | :--- |
+| `customer_personality_eda.ipynb`	| Complete EDA notebook |
+| `EDA_Report.pdf` | Technical project report |
+| `requirements.txt` | Python dependencies |
+| `.gitignore` | Files excluded from version control|
 How to Run
 Download the dataset from the original Kaggle source.
 Place marketing_campaign.csv in the project directory.
