@@ -28,7 +28,17 @@ The main objectives of this project are to:
 The dataset contains customer demographic information, purchasing behavior, campaign responses, and product spending information.
 
 The raw dataset is not included in this repository. Please obtain it from the original source and place it in the project directory before running the notebook.
-[View the dataset on Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+
+**Original Dataset:** 
+[View the dataset - Customer Personality Analysis on Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+
+### Dataset File
+
+The notebook expects the downloaded dataset to be named:
+
+`marketing_campaign.csv`
+
+Place it in the project directory before running the notebook.
 
 ### Business Questions
 1. Does customer income affect spending behavior?
