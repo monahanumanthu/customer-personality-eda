@@ -23,7 +23,7 @@ The main objectives of this project are to:
 
 ### Dataset
 
-#### Source: Kaggle – Customer Personality Analysis
+**Source:** Kaggle – Customer Personality Analysis
 
 The dataset contains customer demographic information, purchasing behavior, campaign responses, and product spending information.
 
@@ -96,13 +96,13 @@ Categorical encoding:
 | `EDA_Report.pdf` | Technical project report |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Files excluded from version control|
-How to Run
-Download the dataset from the original Kaggle source.
-Place marketing_campaign.csv in the project directory.
-Install the required Python packages.
-Open customer_personality_eda.ipynb in Jupyter Notebook or JupyterLab.
-Run the notebook cells sequentially.
-Future Improvements
+### How to Run
+1. Download the dataset from the original Kaggle source.
+2. Place marketing_campaign.csv in the project directory.
+3. Install the required Python packages.
+4. Open customer_personality_eda.ipynb in Jupyter Notebook or JupyterLab.
+5. Run the notebook cells sequentially.
+### Future Improvements
 Build a predictive model for campaign response.
 Perform customer segmentation using clustering techniques.
 Compare additional machine learning algorithms.
