@@ -30,7 +30,7 @@ The dataset contains customer demographic information, purchasing behavior, camp
 The raw dataset is not included in this repository. Please obtain it from the original source and place it in the project directory before running the notebook.
 
 **Original Dataset:** 
-[View the dataset - Customer Personality Analysis on Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+[View the original dataset on Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 ### Dataset File
 
@@ -86,7 +86,7 @@ Categorical encoding:
 - One-Hot Encoding for the nominal Marital_Status variable
 ### Key Findings
 - Customer income shows positive relationships with several spending-related variables.
-- Wine and meat products account for substantial customer spending.
+- Wine products account for the highest customer spending.
 - Customers with fewer children tend to show higher spending patterns.
 - Purchasing behavior differs across customer groups.
 - Higher income and spending are associated with greater campaign acceptance.
