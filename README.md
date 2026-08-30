@@ -109,8 +109,7 @@ Categorical encoding:
 | `.gitignore` | Files excluded from version control|
 
 ### Run in Google Colab
-[https://colab.research.google.com/github/monahanumanthu/customer-personality-eda/blob/main/customer_personality_eda.ipynb?utm_source=chatgpt.com]
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monahanumanthu/customer-personality-eda/blob/main/customer_personality_eda.ipynb)
 You can open and run the complete EDA notebook directly in Google Colab.
 
 ### How to Run
