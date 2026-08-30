@@ -107,6 +107,12 @@ Categorical encoding:
 | `EDA_Report.pdf` | Technical project report |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Files excluded from version control|
+
+### Run in Google Colab
+[https://colab.research.google.com/github/monahanumanthu/customer-personality-eda/blob/main/customer_personality_eda.ipynb?utm_source=chatgpt.com]
+
+You can open and run the complete EDA notebook directly in Google Colab.
+
 ### How to Run
 1. Download the dataset from the original Kaggle source.
 2. Place marketing_campaign.csv in the project directory.
